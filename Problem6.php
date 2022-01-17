@@ -19,8 +19,7 @@ class Problem6 {
 }
 
 $problem = new Problem6;
-$problem->hasCycle($head);
-var_dump($head);
+var_dump($problem->hasCycle($head));
  
 class ListNode {
  	public $val = 0;
